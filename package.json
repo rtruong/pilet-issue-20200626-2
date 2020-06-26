@@ -1,0 +1,54 @@
+{
+  "name": "pilet-issue-20200626-2",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "pilet"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "piral-instance-20200626": "https://github.com/rtruong/piral-instance-20200626/archive/8fbe112d6c67f005db9292718331e5e59dfe4a2d.tar.gz",
+    "@types/react": "^16.8.1",
+    "@types/react-dom": "latest",
+    "@types/react-router": "^5.0.0",
+    "@types/react-router-dom": "^5.0.0",
+    "@types/node": "latest",
+    "typescript": "latest",
+    "@dbeining/react-atom": "^4.0.0",
+    "@libre/atom": "latest",
+    "history": "latest",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-router": ">=5.0.0",
+    "react-router-dom": ">=5.0.0",
+    "tslib": "latest",
+    "path-to-regexp": "latest",
+    "piral-cli": "^0.11.7",
+    "piral-cli-webpack": "^0.11.7"
+  },
+  "peerDependencies": {
+    "@dbeining/react-atom": "*",
+    "@libre/atom": "*",
+    "history": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-router": "*",
+    "react-router-dom": "*",
+    "tslib": "*",
+    "path-to-regexp": "*",
+    "piral-instance-20200626": "*"
+  },
+  "scripts": {
+    "start": "pilet debug",
+    "build": "pilet build",
+    "upgrade": "pilet upgrade"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "piral": {
+    "comment": "Keep this section to use the Piral CLI.",
+    "name": "piral-instance-20200626"
+  }
+}
